@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "246871AD2527BB0E00F44511"
-               BuildableName = "DucksSwiftExample.app"
-               BlueprintName = "DucksSwiftExample"
-               ReferencedContainer = "container:DucksSwiftExample.xcodeproj">
+               BuildableName = "DuckSwiftExample.app"
+               BlueprintName = "DuckSwiftExample"
+               ReferencedContainer = "container:DuckSwiftExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "246871AD2527BB0E00F44511"
-            BuildableName = "DucksSwiftExample.app"
-            BlueprintName = "DucksSwiftExample"
-            ReferencedContainer = "container:DucksSwiftExample.xcodeproj">
+            BuildableName = "DuckSwiftExample.app"
+            BlueprintName = "DuckSwiftExample"
+            ReferencedContainer = "container:DuckSwiftExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "246871AD2527BB0E00F44511"
-            BuildableName = "DucksSwiftExample.app"
-            BlueprintName = "DucksSwiftExample"
-            ReferencedContainer = "container:DucksSwiftExample.xcodeproj">
+            BuildableName = "DuckSwiftExample.app"
+            BlueprintName = "DuckSwiftExample"
+            ReferencedContainer = "container:DuckSwiftExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

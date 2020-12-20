@@ -22,7 +22,7 @@
 		245B1F792527BBE000E6C71A /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
 		245B1F7D2527BC0200E6C71A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		245B1F872527C0D400E6C71A /* CounterAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAction.swift; sourceTree = "<group>"; };
-		246871AE2527BB0E00F44511 /* DucksSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DucksSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		246871AE2527BB0E00F44511 /* DuckSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuckSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		246871B12527BB0E00F44511 /* DucksSwiftExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DucksSwiftExampleApp.swift; sourceTree = "<group>"; };
 		246871B32527BB0E00F44511 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		246871B52527BB0F00F44511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				24264A1B2527CD1300638833 /* DucksSwift */,
-				246871B02527BB0E00F44511 /* DucksSwiftExample */,
+				246871B02527BB0E00F44511 /* DuckSwiftExample */,
 				246871AF2527BB0E00F44511 /* Products */,
 				246871C52527BBAB00F44511 /* Frameworks */,
 			);
@@ -65,12 +65,12 @@
 		246871AF2527BB0E00F44511 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				246871AE2527BB0E00F44511 /* DucksSwiftExample.app */,
+				246871AE2527BB0E00F44511 /* DuckSwiftExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		246871B02527BB0E00F44511 /* DucksSwiftExample */ = {
+		246871B02527BB0E00F44511 /* DuckSwiftExample */ = {
 			isa = PBXGroup;
 			children = (
 				245B1F782527BBD400E6C71A /* Redux */,
@@ -80,7 +80,7 @@
 				246871BA2527BB0F00F44511 /* Info.plist */,
 				246871B72527BB0F00F44511 /* Preview Content */,
 			);
-			path = DucksSwiftExample;
+			path = DuckSwiftExample;
 			sourceTree = "<group>";
 		};
 		246871B72527BB0F00F44511 /* Preview Content */ = {
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		246871AD2527BB0E00F44511 /* DucksSwiftExample */ = {
+		246871AD2527BB0E00F44511 /* DuckSwiftExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 246871BD2527BB0F00F44511 /* Build configuration list for PBXNativeTarget "DucksSwiftExample" */;
+			buildConfigurationList = 246871BD2527BB0F00F44511 /* Build configuration list for PBXNativeTarget "DuckSwiftExample" */;
 			buildPhases = (
 				246871AA2527BB0E00F44511 /* Sources */,
 				246871AB2527BB0E00F44511 /* Frameworks */,
@@ -113,12 +113,12 @@
 			);
 			dependencies = (
 			);
-			name = DucksSwiftExample;
+			name = DuckSwiftExample;
 			packageProductDependencies = (
 				2486D5D52545E483004CB43B /* DuckSwift */,
 			);
 			productName = DucksSwiftExample;
-			productReference = 246871AE2527BB0E00F44511 /* DucksSwiftExample.app */;
+			productReference = 246871AE2527BB0E00F44511 /* DuckSwiftExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 246871A92527BB0E00F44511 /* Build configuration list for PBXProject "DucksSwiftExample" */;
+			buildConfigurationList = 246871A92527BB0E00F44511 /* Build configuration list for PBXProject "DuckSwiftExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				246871AD2527BB0E00F44511 /* DucksSwiftExample */,
+				246871AD2527BB0E00F44511 /* DuckSwiftExample */,
 			);
 		};
 /* End PBXProject section */
@@ -303,10 +303,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"DucksSwiftExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DuckSwiftExample/Preview Content\"";
 				DEVELOPMENT_TEAM = NE64KXLJA8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = DucksSwiftExample/Info.plist;
+				INFOPLIST_FILE = DuckSwiftExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -325,10 +325,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"DucksSwiftExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DuckSwiftExample/Preview Content\"";
 				DEVELOPMENT_TEAM = NE64KXLJA8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = DucksSwiftExample/Info.plist;
+				INFOPLIST_FILE = DuckSwiftExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -344,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		246871A92527BB0E00F44511 /* Build configuration list for PBXProject "DucksSwiftExample" */ = {
+		246871A92527BB0E00F44511 /* Build configuration list for PBXProject "DuckSwiftExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				246871BB2527BB0F00F44511 /* Debug */,
@@ -353,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		246871BD2527BB0F00F44511 /* Build configuration list for PBXNativeTarget "DucksSwiftExample" */ = {
+		246871BD2527BB0F00F44511 /* Build configuration list for PBXNativeTarget "DuckSwiftExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				246871BE2527BB0F00F44511 /* Debug */,

@@ -26,7 +26,7 @@ public final class Store<StoreState: StateProtocol>: StoreProtocol {
                 })
     }()
     
-    /// Initializes the store witha a reducer function and initial state of the applicaiton.
+    /// Initializes the store with a reducer function and initial state of the applicaiton.
     ///
     /// - Parameter reducer: Function type used to process actions into new state values.
     /// - Parameter state: Initial state of the application.
