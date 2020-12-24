@@ -11,7 +11,7 @@ import Foundation
 public final class Store<StoreState: StateProtocol>: StoreProtocol {
     
     public let reducer: Reducer<StoreState>
-    @Published private(set) public var state: StoreState
+    @Published public var state: StoreState
     private let middlewares: [Middleware]
     private lazy var dispatchFunction: DispatchFunction = {
         middlewares
